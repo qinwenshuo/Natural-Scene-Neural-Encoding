@@ -1,5 +1,7 @@
 # Natural-Scene-Neural-Encoding
 
+credit(AlexNet tutorial): https://colab.research.google.com/drive/1bLJGP3bAo_hAOwZPHpiSHKlt97X9xsUw?usp=share_link
+
 Predicting fMRI responses from the natural scene images.
 
 Linearizing encoding approach: Images --> nonlinear feature extraction --> linear mapping(linear regression) --> fMRI
@@ -20,6 +22,7 @@ To run the jupyter notebook:
 5. Run the notebook
 
 To visualize ResNext result, put ResNext.ipynb and Res_Next_Result.ipynb under the same directory, then run ResNext.ipynb and run Res_Next_Result.ipynb
+
 To run VAE_implemented.ipynb, download the pretrained model parameters here: https://www.kaggle.com/code/maunish/training-vae-on-imagenet-pytorch/output
 
 Results(for subj 01):
